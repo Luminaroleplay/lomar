@@ -1,0 +1,6 @@
+{
+  "name": "Lumina DJ AI",
+  "description": "Steer a continuous stream of music with text prompts",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

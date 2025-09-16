@@ -1,0 +1,33 @@
+
+:root {
+  --background-color: #0d0221;
+  --ui-bg-color: #1a0a38;
+  --primary-neon: #26f7fd;
+  --secondary-neon: #ff00e5;
+  --tertiary-neon: #9d72ff;
+  --ui-border-color: #4a2f8c;
+  --text-color: #f0f0f0;
+  --font-body: 'Roboto', sans-serif;
+  --font-title: 'Bruno Ace SC', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+}
+
+body {
+  overflow: hidden;
+}
+
+body.dragging {
+  cursor: grabbing;
+}
+
+body.dragging * {
+  user-select: none;
+  pointer-events: none;
+}
